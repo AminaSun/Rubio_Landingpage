@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+    font-family:sans-serif ;
+  }
+
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 20px auto;
+  }
+
+  header img {
+    width: 100px;
+    
+  }
+
+
+  /*nav-meny*/
+
+  header nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+  }
+  
+  header nav {
+      display: none;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media screen and (min-width: 700px) {
+      header nav {
+          display: block;
+      }
+  }
+    
+/*flex*/
+
+main section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: right;
+}
+
+
+  .flex-container-ver {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h1 {
+    padding-bottom: 20px;
+    font-weight: 200;
+  }
+  h2 {
+  padding-bottom: 20px;
+  font-weight: 200;
+  }
+
+  h4 {
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  .flex-container-hor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    gap: 3rem;
+  }
+
+  .flex-container-hor div {
+    flex: 1;
+    min-width: 10rem;
+    padding: 1rem;
+  }
+
+  .full-width {
+    padding: 6rem 0;
+  }
+
+  .full-width h4 {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .bck-yellow {
+    background-color: blanchedalmond;
+  }
+
+  .bck-lilla {
+    background-color: #DCBCFA;
+  }
+
+  /* emailbox*/
+
+input[type=text] {
+  border: none;
+  background-color:white;
+  border-radius: 6px;
+  height: 28px;
+  width: 12rem;
+  padding: 20px;
+  margin-top: 30px;
+  padding-inline: 10px;
+  
+  
+
+}
+
+/* knapp*/
+
+#add-button {
+  padding-inline: 1px;
+  background-color: #DCBCFA;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  border: none;
+}
+
+/* .handlingsrekke {
+  width: 30vw;
+
+} */
+
+.footerikon {
+  width: 30px;
+}
+
+.flex-container-flex {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex-container-flex img { 
+  flex: 1;
+  max-width: 360px;
+}
